@@ -1,0 +1,44 @@
+﻿body{
+	background-color: green;
+	display: flex;
+	justify-content: space-around;
+}
+
+.center{
+	width: 1200px;
+	height: 99vh;
+	margin: 0 auto;
+	background-color: red;
+}
+.center .btn1, .center .btn2, .center .btn3{
+	background-color: blue;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 22px;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	top: 20%;
+	left: 41%;
+	width: 250px;
+	height: 50px;
+	padding-top: 19px;
+}
+
+.center .btn2{
+	top: 25%;
+	left: 41%;
+}
+
+.center .btn3{
+	top: 30%;
+	left: 41%;
+}
+
+.center .btn1:hover, .center .btn2:hover, .center .btn3:hover{
+	background-color: blueviolet;
+	color: darkblue;
+}
+
+
